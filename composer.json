@@ -1,0 +1,22 @@
+{
+  "name": "dez-php/file-storage-client",
+  "description": "Client for working with file-storage",
+  "keywords": ["php file-storage","file storage client","file-storage client","dez-php file-storage client"],
+  "authors": [
+    {
+      "name": "Ivan Gontarenko",
+      "email": "stewie.dev@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.5",
+    "dez-php/dez-http": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FileStorage\\": "src/FileStorage"
+    }
+  }
+}
