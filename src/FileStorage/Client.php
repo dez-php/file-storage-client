@@ -35,10 +35,10 @@ class Client {
      * @throws \Dez\Http\Client\HttpRequestException
      * @throws \Exception
      */
-    public function uploadFile($filepath, $name, $category = 1)
+    public function uploadFile($filepath, $name, $category = 1, $mimetype = null)
     {
         $params = [
-            'file' => Curl::file($filepath),
+            'file' => Curl::file($filepath, $mimetype),
             'name' => $name,
             'category_id' => $category,
             'protected' => 0,

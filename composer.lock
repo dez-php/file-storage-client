@@ -93,16 +93,16 @@
         },
         {
             "name": "dez-php/dez-http",
-            "version": "v1.5.0",
+            "version": "v1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dez-php/dez-http.git",
-                "reference": "bfbae89fefba58689667ff22cf9351893f868886"
+                "reference": "7a4c0762cae8b489c9e143ea811781fb9329f3be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dez-php/dez-http/zipball/bfbae89fefba58689667ff22cf9351893f868886",
-                "reference": "bfbae89fefba58689667ff22cf9351893f868886",
+                "url": "https://api.github.com/repos/dez-php/dez-http/zipball/7a4c0762cae8b489c9e143ea811781fb9329f3be",
+                "reference": "7a4c0762cae8b489c9e143ea811781fb9329f3be",
                 "shasum": ""
             },
             "require": {
@@ -132,7 +132,7 @@
                 "http",
                 "php http"
             ],
-            "time": "2016-05-19 14:29:49"
+            "time": "2016-06-30 10:02:59"
         },
         {
             "name": "dez-php/dez-router",
