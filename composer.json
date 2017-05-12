@@ -4,7 +4,7 @@
   "keywords": ["php file-storage","file storage client","file-storage client","dez-php file-storage client"],
   "authors": [
     {
-      "name": "Ivan Gontarenko",
+      "name": "Ivan Hontarenko",
       "email": "stewie.dev@gmail.com"
     }
   ],
@@ -12,7 +12,7 @@
   "type": "library",
   "require": {
     "php": ">=5.5",
-    "dez-php/dez-http": "~1.0"
+    "colibriphp/http-request": "~0.1"
   },
   "autoload": {
     "psr-4": {

@@ -4,30 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69e3bbcaaec964a3d2484aa644bab904",
-    "content-hash": "7d17f7d2fad467eb5c4b9753e3071e29",
+    "hash": "bbf8ccedc3ab5004aa3ed392e94eab7d",
+    "content-hash": "19cbeb11d004e135a322b51c32dd6ddb",
     "packages": [
         {
-            "name": "dez-php/dez-di",
-            "version": "v1.0.3",
+            "name": "colibriphp/http",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dez-php/dez-di.git",
-                "reference": "631661a66452b9cf04d5f6343dec0e9769c3284f"
+                "url": "https://github.com/colibriphp/http.git",
+                "reference": "c751c9541e6bc24b62195f1accd72c23153f5aad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dez-php/dez-di/zipball/631661a66452b9cf04d5f6343dec0e9769c3284f",
-                "reference": "631661a66452b9cf04d5f6343dec0e9769c3284f",
+                "url": "https://api.github.com/repos/colibriphp/http/zipball/c751c9541e6bc24b62195f1accd72c23153f5aad",
+                "reference": "c751c9541e6bc24b62195f1accd72c23153f5aad",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": ">=5.6"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Dez\\DependencyInjection\\": "src/DependencyInjection"
+                    "Colibri\\Http\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -36,128 +36,40 @@
             ],
             "authors": [
                 {
-                    "name": "Ivan Gontarenko",
-                    "email": "vania.gontarenko@gmail.com"
+                    "name": "Ivan Hontarenko",
+                    "email": "stewie.dev@gmail.com"
                 }
             ],
-            "description": "DezPHP - Dependency injection",
+            "description": "Http Library",
             "keywords": [
-                "PHP Dependency Injection",
-                "dependency injection",
-                "dez-di",
-                "dez-php dependency injection",
-                "di"
-            ],
-            "time": "2015-09-21 09:18:02"
-        },
-        {
-            "name": "dez-php/dez-event",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dez-php/dez-event.git",
-                "reference": "11c09de910dae0a3472d9726bd49b3304aa85c69"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dez-php/dez-event/zipball/11c09de910dae0a3472d9726bd49b3304aa85c69",
-                "reference": "11c09de910dae0a3472d9726bd49b3304aa85c69",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dez\\EventDispatcher\\": "src/EventDispatcher"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ivan Gontarenko",
-                    "email": "vania.gontarenko@gmail.com"
-                }
-            ],
-            "description": "EventDispatcher Component",
-            "keywords": [
-                "dez-php",
-                "event",
-                "event dispatcher"
-            ],
-            "time": "2015-09-09 11:26:22"
-        },
-        {
-            "name": "dez-php/dez-http",
-            "version": "v1.5.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dez-php/dez-http.git",
-                "reference": "7a4c0762cae8b489c9e143ea811781fb9329f3be"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dez-php/dez-http/zipball/7a4c0762cae8b489c9e143ea811781fb9329f3be",
-                "reference": "7a4c0762cae8b489c9e143ea811781fb9329f3be",
-                "shasum": ""
-            },
-            "require": {
-                "dez-php/dez-di": "~1.0",
-                "dez-php/dez-url": "~1.0",
-                "php": ">=5.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dez\\Http\\": "src/Http"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ivan Gontarenko",
-                    "email": "vania.gontarenko@gmail.com"
-                }
-            ],
-            "description": "DezPHP - Http Component",
-            "keywords": [
-                "dez-php http",
+                "colibri http",
                 "http",
                 "php http"
             ],
-            "time": "2016-06-30 10:02:59"
+            "time": "2017-05-04 14:56:23"
         },
         {
-            "name": "dez-php/dez-router",
-            "version": "v1.2.1",
+            "name": "colibriphp/http-request",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dez-php/dez-router.git",
-                "reference": "031313639c60f97fa5196606b5e5da8830f0b6d6"
+                "url": "https://github.com/colibriphp/http-request.git",
+                "reference": "18e7bac169021445f88216d07a356cc3d0c01ebb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dez-php/dez-router/zipball/031313639c60f97fa5196606b5e5da8830f0b6d6",
-                "reference": "031313639c60f97fa5196606b5e5da8830f0b6d6",
+                "url": "https://api.github.com/repos/colibriphp/http-request/zipball/18e7bac169021445f88216d07a356cc3d0c01ebb",
+                "reference": "18e7bac169021445f88216d07a356cc3d0c01ebb",
                 "shasum": ""
             },
             "require": {
-                "dez-php/dez-di": ">=1.0",
-                "dez-php/dez-event": ">=1.0",
-                "dez-php/dez-http": ">=1.0",
+                "colibriphp/uri": "~0.1",
                 "php": ">=5.5"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Dez\\Router\\": "src/Router"
+                    "Colibri\\HttpRequest\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -166,43 +78,39 @@
             ],
             "authors": [
                 {
-                    "name": "Ivan Gontarenko",
-                    "email": "vania.gontarenko@gmail.com"
+                    "name": "Ivan Hontarenko",
+                    "email": "stewie.dev@gmail.com"
                 }
             ],
-            "description": "Router Component",
+            "description": "Http Request Library",
             "keywords": [
-                "dez-php router",
-                "php router",
-                "router"
+                "http",
+                "http-request"
             ],
-            "time": "2016-04-21 13:44:30"
+            "time": "2017-05-12 17:01:41"
         },
         {
-            "name": "dez-php/dez-url",
-            "version": "v1.1.0",
+            "name": "colibriphp/uri",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dez-php/dez-url.git",
-                "reference": "4d559c4ab5f01e63c8541e5aec7d752a717d0182"
+                "url": "https://github.com/colibriphp/uri.git",
+                "reference": "ac8a00b6bcb8bb8b35a67908449b9822da356757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dez-php/dez-url/zipball/4d559c4ab5f01e63c8541e5aec7d752a717d0182",
-                "reference": "4d559c4ab5f01e63c8541e5aec7d752a717d0182",
+                "url": "https://api.github.com/repos/colibriphp/uri/zipball/ac8a00b6bcb8bb8b35a67908449b9822da356757",
+                "reference": "ac8a00b6bcb8bb8b35a67908449b9822da356757",
                 "shasum": ""
             },
             "require": {
-                "dez-php/dez-di": ">=1.0",
-                "dez-php/dez-event": ">=1.0",
-                "dez-php/dez-http": ">=1.0",
-                "dez-php/dez-router": ">=1.0",
+                "colibriphp/http": "~0.1",
                 "php": ">=5.5"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Dez\\Url\\": "src/Url"
+                    "Colibri\\URI\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -211,11 +119,11 @@
             ],
             "authors": [
                 {
-                    "name": "Ivan Gontarenko",
-                    "email": "vania.gontarenko@gmail.com"
+                    "name": "Ivan Hontarenko",
+                    "email": "stewie.dev@gmail.com"
                 }
             ],
-            "description": "URL/URI/URLBuilder Component",
+            "description": "URL/URI Library",
             "keywords": [
                 "dez-php url",
                 "php url",
@@ -223,7 +131,7 @@
                 "url",
                 "url builder"
             ],
-            "time": "2016-03-23 11:17:36"
+            "time": "2017-05-05 09:10:46"
         }
     ],
     "packages-dev": [],
